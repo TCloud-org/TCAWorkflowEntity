@@ -1,0 +1,9 @@
+#!/bin/bash
+
+git add .
+
+git commit -m "Changes"
+
+mvn deploy
+
+git push
